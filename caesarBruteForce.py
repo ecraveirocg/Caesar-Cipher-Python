@@ -12,4 +12,6 @@ def caesarBruteForce(cipherText):
             else:
                 decryptedText += char
         
-        print("With")
+        print("With a shift of " + str(shift_key) + " the decrypted text is: " + decryptedText)
+
+caesarBruteForce(ciphertext)
